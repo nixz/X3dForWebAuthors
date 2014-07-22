@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+  <head>
+    <meta content='HudKelpForest.x3d' name='title'/>
+    <meta content='Demonstrates use of a ProximitySensor in building a HUD' name='description'/>
+    <meta content='Leonard Daly and Don Brutzman' name='creator'/>
+    <meta content='15 July 2006' name='created'/>
+    <meta content='10 January 2014' name='modified'/>
+    <meta content='http://X3dGraphics.com' name='reference'/>
+    <meta content='http://www.web3d.org/x3d/content/examples/X3dResources.html' name='reference'/>
+    <meta content='Copyright 2006, Daly Realism and Don Brutzman' name='rights'/>
+    <meta content='X3D book, X3D graphics, X3D-Edit, http://www.x3dGraphics.com' name='subject'/>
+    <meta content='http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/HudKelpForest.x3d' name='identifier'/>
+    <meta content='X3D-Edit 3.3, https://savage.nps.edu/X3D-Edit' name='generator'/>
+    <meta content='../license.html' name='license'/>
+  </head>
+  <Scene>
+    <Background backUrl='"urn:web3d:media:textures/panoramas/horizon_3_back.jpg" "horizon_3_back.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_back.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_back.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_back.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_back.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_back.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_back.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_back.jpg"' bottomUrl='"urn:web3d:media:textures/panoramas/horizon_3_bottom.jpg" "horizon_3_bottom.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_bottom.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_bottom.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_bottom.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_bottom.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_bottom.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_bottom.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_bottom.jpg"' frontUrl='"urn:web3d:media:textures/panoramas/horizon_3_front.jpg" "horizon_3_front.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_front.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_front.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_front.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_front.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_front.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_front.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_front.jpg"' groundAngle='1.309 1.5707' groundColor='0.1 0.1 0 0.4 0.25 0.2 0.6 0.6 0.6' leftUrl='"urn:web3d:media:textures/panoramas/horizon_3_left.jpg" "horizon_3_left.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_left.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_left.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_left.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_left.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_left.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_left.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_left.jpg"' rightUrl='"urn:web3d:media:textures/panoramas/horizon_3_right.jpg" "horizon_3_right.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_right.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_right.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_right.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_right.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_right.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_right.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_right.jpg"' skyAngle='1.309 1.5707' skyColor='0 0.5 1 0 0 1 0 0 1' topUrl='"urn:web3d:media:textures/panoramas/horizon_3_top.jpg" "horizon_3_top.jpg" "../../Basic/UniversalMediaPanoramas/horizon_3_top.jpg" "http://www.web3d.org/WorkingGroups/media/textures/panoramas/horizon_3_top.jpg" "http://www.web3d.org/x3d/content/examples/UniversalMediaPanoramas/horizon_3_top.jpg" "http://www.web3dmedia.com/UniversalMedia/textures/panoramas/horizon_3_top.jpg" "http://www.officetowers.com/UniversalMedia/textures/panoramas/horizon_3_top.jpg" "http://geometrek.com/UniversalMedia/textures/panoramas/horizon_3_top.jpg" "http://www.sc.ehu.es/ccwgamoa/UniversalMedia/textures/panoramas/horizon_3_top.jpg"'/>
+    <ExternProtoDeclare name='HUD' url='"HudPrototype.x3d#HUD" "http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/HudPrototype.x3d#HUD" "HudPrototype.wrl#HUD" "http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/HudPrototype.wrl#HUD"'>
+      <field accessType='initializeOnly' name='hudSize' type='SFVec3f'/>
+      <field accessType='inputOutput' name='hudColor' type='SFColor'/>
+      <field accessType='inputOutput' name='screenOffset' type='SFVec3f'/>
+      <field accessType='inputOutput' name='hudGeometry' type='MFNode'/>
+      <field accessType='outputOnly' name='position_changed' type='SFVec3f'/>
+      <field accessType='outputOnly' name='orientation_changed' type='SFRotation'/>
+    </ExternProtoDeclare>
+    <ExternProtoDeclare name='TextString' url='"TextStringPrototype.x3d#TextString" "http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/TextStringPrototype.x3d#TextString" "TextStringPrototype.wrl#TextString" "http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/TextStringPrototype.wrl#TextString"'>
+      <field accessType='inputOutput' name='offset' type='SFVec3f'/>
+      <field accessType='inputOutput' name='string' type='MFString'/>
+      <field accessType='inputOutput' name='color' type='SFColor'/>
+      <field accessType='initializeOnly' name='size' type='SFFloat'/>
+      <field accessType='initializeOnly' name='justify' type='MFString'/>
+      <field accessType='initializeOnly' name='style' type='SFString'/>
+      <field accessType='initializeOnly' name='family' type='MFString'/>
+    </ExternProtoDeclare>
+    <Switch whichChoice='-1'>
+      <Transform DEF='HudContent' translation='-.7 .3 .1'>
+        <ProtoInstance name='TextString'>
+          <fieldValue name='offset' value='0 -.2 0'/>
+          <fieldValue name='string' value='"Position: "'/>
+          <fieldValue name='color' value='0 0 0'/>
+          <fieldValue name='size' value='.1'/>
+        </ProtoInstance>
+        <ProtoInstance name='TextString'>
+          <fieldValue name='offset' value='0 -.4 0'/>
+          <fieldValue name='string' value='"Orientation: "'/>
+          <fieldValue name='color' value='0 0 0'/>
+          <fieldValue name='size' value='.1'/>
+        </ProtoInstance>
+        <ProtoInstance DEF='TopLine' name='TextString'>
+          <fieldValue name='offset' value='.5 -.2 0'/>
+          <fieldValue name='string' value='""'/>
+          <fieldValue name='color' value='0 0 1'/>
+          <fieldValue name='size' value='.1'/>
+        </ProtoInstance>
+        <ProtoInstance DEF='BottomLine' name='TextString'>
+          <fieldValue name='offset' value='.5 -.4 0'/>
+          <fieldValue name='string' value='""'/>
+          <fieldValue name='color' value='0 .8 0'/>
+          <fieldValue name='size' value='.1'/>
+        </ProtoInstance>
+      </Transform>
+    </Switch>
+    <ProtoInstance DEF='Hud' name='HUD'>
+      <fieldValue name='hudSize' value='1.5 .4 .1'/>
+      <fieldValue name='hudColor' value='1 1 0'/>
+      <fieldValue name='screenOffset' value='-.8 1. -3'/>
+      <fieldValue name='hudGeometry' value='HudContent'/>
+    </ProtoInstance>
+    <Script DEF='Convert' url='"Convert.js" "http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14-Prototypes/Convert.js"'>
+      <field accessType='inputOnly' name='sfVec3f' type='SFVec3f'/>
+      <field accessType='inputOnly' name='sfRotation' type='SFRotation'/>
+      <field accessType='outputOnly' name='sfVec3fString' type='MFString'/>
+      <field accessType='outputOnly' name='sfRotationString' type='MFString'/>
+    </Script>
+    <ROUTE fromField='position_changed' fromNode='Hud' toField='sfVec3f' toNode='Convert'/>
+    <ROUTE fromField='orientation_changed' fromNode='Hud' toField='sfRotation' toNode='Convert'/>
+    <ROUTE fromField='sfVec3fString' fromNode='Convert' toField='string' toNode='TopLine'/>
+    <ROUTE fromField='sfRotationString' fromNode='Convert' toField='string' toNode='BottomLine'/>
+    <Inline url='"../KelpForestExhibit/KelpForestMain.x3d" "http://X3dGraphics.com/examples/X3dForWebAuthors/KelpForestExhibit/KelpForestMain.x3d" "../KelpForestExhibit//KelpForestMain.wrl" "http://X3dGraphics.com/examples/X3dForWebAuthors/KelpForestExhibit/KelpForestMain.wrl"'/>
+  </Scene>
+</X3D>
